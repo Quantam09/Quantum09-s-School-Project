@@ -1,0 +1,184 @@
+Obtaining file:///C:/Users/aidan/.zcode/workspace/default/learn-and-reward-lar/services/api
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: fastapi>=0.110 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from learn-reward-api==0.1.0) (0.142.2)
+Requirement already satisfied: uvicorn>=0.29 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from uvicorn[standard]>=0.29->learn-reward-api==0.1.0) (0.54.0)
+Requirement already satisfied: pydantic>=2.6 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from pydantic[email]>=2.6->learn-reward-api==0.1.0) (2.13.5)
+Requirement already satisfied: pydantic-settings>=2.2 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from learn-reward-api==0.1.0) (2.15.0)
+Requirement already satisfied: sqlalchemy>=2.0 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from learn-reward-api==0.1.0) (2.1.1)
+Requirement already satisfied: alembic>=1.13 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from learn-reward-api==0.1.0) (1.20.0)
+Requirement already satisfied: psycopg>=3.1 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from psycopg[binary]>=3.1->learn-reward-api==0.1.0) (3.3.6)
+Requirement already satisfied: pyjwt>=2.8 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from learn-reward-api==0.1.0) (2.15.1)
+Requirement already satisfied: httpx>=0.27 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from learn-reward-api==0.1.0) (0.28.1)
+Collecting python-multipart>=0.0.9 (from learn-reward-api==0.1.0)
+  Downloading python_multipart-0.0.32-py3-none-any.whl.metadata (2.1 kB)
+Collecting numpy>=1.26 (from learn-reward-api==0.1.0)
+  Downloading numpy-2.4.6-cp311-cp311-win_amd64.whl.metadata (6.6 kB)
+Collecting faster-whisper>=1.0 (from learn-reward-api==0.1.0)
+  Downloading faster_whisper-1.2.1-py3-none-any.whl.metadata (16 kB)
+Collecting fastembed>=0.3 (from learn-reward-api==0.1.0)
+  Downloading fastembed-0.8.1-py3-none-any.whl.metadata (11 kB)
+Collecting boto3>=1.34 (from learn-reward-api==0.1.0)
+  Downloading boto3-1.43.105-py3-none-any.whl.metadata (6.6 kB)
+Requirement already satisfied: pytest>=8.0 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from learn-reward-api==0.1.0) (9.1.1)
+Requirement already satisfied: ruff>=0.4 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from learn-reward-api==0.1.0) (0.16.9)
+Requirement already satisfied: mypy>=1.9 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from learn-reward-api==0.1.0) (2.3.1)
+Requirement already satisfied: Mako in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from alembic>=1.13->learn-reward-api==0.1.0) (1.4.3)
+Requirement already satisfied: typing-extensions>=4.12 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from alembic>=1.13->learn-reward-api==0.1.0) (4.16.0)
+Collecting botocore<1.44.0,>=1.43.105 (from boto3>=1.34->learn-reward-api==0.1.0)
+  Downloading botocore-1.43.105-py3-none-any.whl.metadata (5.6 kB)
+Collecting jmespath<2.0.0,>=0.7.1 (from boto3>=1.34->learn-reward-api==0.1.0)
+  Downloading jmespath-1.1.0-py3-none-any.whl.metadata (7.6 kB)
+Collecting s3transfer<0.20.0,>=0.19.0 (from boto3>=1.34->learn-reward-api==0.1.0)
+  Downloading s3transfer-0.19.2-py3-none-any.whl.metadata (1.7 kB)
+Requirement already satisfied: starlette>=0.46.0 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from fastapi>=0.110->learn-reward-api==0.1.0) (1.7.0)
+Requirement already satisfied: typing-inspection>=0.4.2 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from fastapi>=0.110->learn-reward-api==0.1.0) (0.4.4)
+Requirement already satisfied: annotated-doc>=0.0.2 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from fastapi>=0.110->learn-reward-api==0.1.0) (0.0.5)
+Requirement already satisfied: opentelemetry-api>=1.44.0 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from fastapi>=0.110->learn-reward-api==0.1.0) (1.45.0)
+Collecting huggingface-hub<2.0,>=0.20 (from fastembed>=0.3->learn-reward-api==0.1.0)
+  Downloading huggingface_hub-1.33.0-py3-none-any.whl.metadata (16 kB)
+Collecting loguru<0.8.0,>=0.7.2 (from fastembed>=0.3->learn-reward-api==0.1.0)
+  Downloading loguru-0.7.3-py3-none-any.whl.metadata (22 kB)
+Collecting mmh3<6.0.0,>=4.1.0 (from fastembed>=0.3->learn-reward-api==0.1.0)
+  Downloading mmh3-5.3.0-cp311-cp311-win_amd64.whl.metadata (14 kB)
+Collecting onnxruntime!=1.20.0,!=1.24.0,!=1.24.1,>=1.17.0 (from fastembed>=0.3->learn-reward-api==0.1.0)
+  Downloading onnxruntime-1.30.0-cp311-cp311-win_amd64.whl.metadata (5.9 kB)
+Collecting pillow<13.0,>=10.3.0 (from fastembed>=0.3->learn-reward-api==0.1.0)
+  Downloading pillow-12.3.0-cp311-cp311-win_amd64.whl.metadata (9.3 kB)
+Collecting py-rust-stemmers<0.2.0,>=0.1.0 (from fastembed>=0.3->learn-reward-api==0.1.0)
+  Downloading py_rust_stemmers-0.1.8-cp311-cp311-win_amd64.whl.metadata (3.6 kB)
+Collecting requests<3.0,>=2.31 (from fastembed>=0.3->learn-reward-api==0.1.0)
+  Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting tokenizers<1.0,>=0.15 (from fastembed>=0.3->learn-reward-api==0.1.0)
+  Downloading tokenizers-0.23.2-cp310-abi3-win_amd64.whl.metadata (10 kB)
+Collecting tqdm<5.0,>=4.66 (from fastembed>=0.3->learn-reward-api==0.1.0)
+  Downloading tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+     -------------------------------------- 57.4/57.4 kB 760.1 kB/s eta 0:00:00
+Collecting ctranslate2<5,>=4.0 (from faster-whisper>=1.0->learn-reward-api==0.1.0)
+  Downloading ctranslate2-4.8.2-cp311-cp311-win_amd64.whl.metadata (11 kB)
+Collecting av>=11 (from faster-whisper>=1.0->learn-reward-api==0.1.0)
+  Downloading av-18.1.0-cp311-abi3-win_amd64.whl.metadata (5.1 kB)
+Requirement already satisfied: anyio in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from httpx>=0.27->learn-reward-api==0.1.0) (4.15.1)
+Requirement already satisfied: certifi in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from httpx>=0.27->learn-reward-api==0.1.0) (2026.7.22)
+Requirement already satisfied: httpcore==1.* in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from httpx>=0.27->learn-reward-api==0.1.0) (1.0.9)
+Requirement already satisfied: idna in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from httpx>=0.27->learn-reward-api==0.1.0) (3.20)
+Requirement already satisfied: h11>=0.16 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from httpcore==1.*->httpx>=0.27->learn-reward-api==0.1.0) (0.16.0)
+Requirement already satisfied: mypy_extensions>=1.0.0 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from mypy>=1.9->learn-reward-api==0.1.0) (1.1.0)
+Requirement already satisfied: pathspec>=1.0.0 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from mypy>=1.9->learn-reward-api==0.1.0) (1.1.1)
+Requirement already satisfied: librt>=0.13.0 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from mypy>=1.9->learn-reward-api==0.1.0) (0.16.0)
+Requirement already satisfied: ast-serialize<1.0.0,>=0.6.0 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from mypy>=1.9->learn-reward-api==0.1.0) (0.11.2)
+Requirement already satisfied: tzdata in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from psycopg>=3.1->psycopg[binary]>=3.1->learn-reward-api==0.1.0) (2026.4)
+Requirement already satisfied: psycopg-binary==3.3.6 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from psycopg[binary]>=3.1->learn-reward-api==0.1.0) (3.3.6)
+Requirement already satisfied: annotated-types>=0.6.0 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from pydantic>=2.6->pydantic[email]>=2.6->learn-reward-api==0.1.0) (0.8.0)
+Requirement already satisfied: pydantic-core==2.46.5 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from pydantic>=2.6->pydantic[email]>=2.6->learn-reward-api==0.1.0) (2.46.5)
+Requirement already satisfied: python-dotenv>=0.21.0 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from pydantic-settings>=2.2->learn-reward-api==0.1.0) (1.2.3)
+Requirement already satisfied: email-validator>=2.0.0 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from pydantic[email]>=2.6->learn-reward-api==0.1.0) (2.3.0)
+Requirement already satisfied: colorama>=0.4 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from pytest>=8.0->learn-reward-api==0.1.0) (0.4.6)
+Requirement already satisfied: iniconfig>=1.0.1 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from pytest>=8.0->learn-reward-api==0.1.0) (2.3.0)
+Requirement already satisfied: packaging>=22 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from pytest>=8.0->learn-reward-api==0.1.0) (26.3)
+Requirement already satisfied: pluggy<2,>=1.5 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from pytest>=8.0->learn-reward-api==0.1.0) (1.6.0)
+Requirement already satisfied: pygments>=2.7.2 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from pytest>=8.0->learn-reward-api==0.1.0) (2.21.0)
+Requirement already satisfied: click>=7.0 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from uvicorn>=0.29->uvicorn[standard]>=0.29->learn-reward-api==0.1.0) (8.5.0)
+Requirement already satisfied: httptools>=0.8.0 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from uvicorn[standard]>=0.29->learn-reward-api==0.1.0) (0.8.0)
+Requirement already satisfied: pyyaml>=5.1 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from uvicorn[standard]>=0.29->learn-reward-api==0.1.0) (6.0.3)
+Requirement already satisfied: watchfiles>=0.20 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from uvicorn[standard]>=0.29->learn-reward-api==0.1.0) (1.3.0)
+Requirement already satisfied: websockets>=13.0 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from uvicorn[standard]>=0.29->learn-reward-api==0.1.0) (17.1)
+Collecting python-dateutil<3.0.0,>=2.1 (from botocore<1.44.0,>=1.43.105->boto3>=1.34->learn-reward-api==0.1.0)
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting urllib3!=2.2.0,<3,>=1.25.4 (from botocore<1.44.0,>=1.43.105->boto3>=1.34->learn-reward-api==0.1.0)
+  Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+Requirement already satisfied: dnspython>=2.0.0 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from email-validator>=2.0.0->pydantic[email]>=2.6->learn-reward-api==0.1.0) (2.8.0)
+Collecting filelock>=3.10.0 (from huggingface-hub<2.0,>=0.20->fastembed>=0.3->learn-reward-api==0.1.0)
+  Downloading filelock-4.0.7-py3-none-any.whl.metadata (2.0 kB)
+Collecting fsspec>=2023.5.0 (from huggingface-hub<2.0,>=0.20->fastembed>=0.3->learn-reward-api==0.1.0)
+  Downloading fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+Collecting hf-xet<2.0.0,>=1.6.0 (from huggingface-hub<2.0,>=0.20->fastembed>=0.3->learn-reward-api==0.1.0)
+  Downloading hf_xet-1.6.0-cp38-abi3-win_amd64.whl.metadata (4.9 kB)
+Collecting win32-setctime>=1.0.0 (from loguru<0.8.0,>=0.7.2->fastembed>=0.3->learn-reward-api==0.1.0)
+  Downloading win32_setctime-1.2.0-py3-none-any.whl.metadata (2.4 kB)
+Collecting flatbuffers (from onnxruntime!=1.20.0,!=1.24.0,!=1.24.1,>=1.17.0->fastembed>=0.3->learn-reward-api==0.1.0)
+  Downloading flatbuffers-25.12.19-py2.py3-none-any.whl.metadata (1.0 kB)
+Collecting protobuf>=4.25.8 (from onnxruntime!=1.20.0,!=1.24.0,!=1.24.1,>=1.17.0->fastembed>=0.3->learn-reward-api==0.1.0)
+  Downloading protobuf-7.36.2-cp310-abi3-win_amd64.whl.metadata (595 bytes)
+Collecting charset_normalizer<4,>=2 (from requests<3.0,>=2.31->fastembed>=0.3->learn-reward-api==0.1.0)
+  Downloading charset_normalizer-3.5.2-cp311-cp311-win_amd64.whl.metadata (47 kB)
+     ---------------------------------------- 47.3/47.3 kB 2.3 MB/s eta 0:00:00
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\lib\site-packages (from Mako->alembic>=1.13->learn-reward-api==0.1.0) (3.0.3)
+Collecting six>=1.5 (from python-dateutil<3.0.0,>=2.1->botocore<1.44.0,>=1.43.105->boto3>=1.34->learn-reward-api==0.1.0)
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Downloading boto3-1.43.105-py3-none-any.whl (140 kB)
+   ---------------------------------------- 140.0/140.0 kB 2.1 MB/s eta 0:00:00
+Downloading fastembed-0.8.1-py3-none-any.whl (129 kB)
+   ---------------------------------------- 129.8/129.8 kB 7.5 MB/s eta 0:00:00
+Downloading faster_whisper-1.2.1-py3-none-any.whl (1.1 MB)
+   ---------------------------------------- 1.1/1.1 MB 5.5 MB/s eta 0:00:00
+Downloading numpy-2.4.6-cp311-cp311-win_amd64.whl (12.6 MB)
+   ---------------------------------------- 12.6/12.6 MB 6.5 MB/s eta 0:00:00
+Downloading python_multipart-0.0.32-py3-none-any.whl (30 kB)
+Downloading av-18.1.0-cp311-abi3-win_amd64.whl (27.6 MB)
+   ---------------------------------------- 27.6/27.6 MB 5.5 MB/s eta 0:00:00
+Downloading botocore-1.43.105-py3-none-any.whl (16.0 MB)
+   ---------------------------------------- 16.0/16.0 MB 1.2 MB/s eta 0:00:00
+Downloading ctranslate2-4.8.2-cp311-cp311-win_amd64.whl (19.2 MB)
+   ---------------------------------------- 19.2/19.2 MB 790.9 kB/s eta 0:00:00
+Downloading huggingface_hub-1.33.0-py3-none-any.whl (846 kB)
+   -------------------------------------- 846.4/846.4 kB 990.8 kB/s eta 0:00:00
+Downloading jmespath-1.1.0-py3-none-any.whl (20 kB)
+Downloading loguru-0.7.3-py3-none-any.whl (61 kB)
+   ---------------------------------------- 61.6/61.6 kB 828.3 kB/s eta 0:00:00
+Downloading mmh3-5.3.0-cp311-cp311-win_amd64.whl (41 kB)
+   ---------------------------------------- 41.8/41.8 kB 1.0 MB/s eta 0:00:00
+Downloading onnxruntime-1.30.0-cp311-cp311-win_amd64.whl (14.3 MB)
+   ---------------------------------------- 14.3/14.3 MB 619.6 kB/s eta 0:00:00
+Downloading pillow-12.3.0-cp311-cp311-win_amd64.whl (7.2 MB)
+   ---------------------------------------- 7.2/7.2 MB 570.7 kB/s eta 0:00:00
+Downloading py_rust_stemmers-0.1.8-cp311-cp311-win_amd64.whl (208 kB)
+   -------------------------------------- 208.4/208.4 kB 453.4 kB/s eta 0:00:00
+Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+   ---------------------------------------- 73.1/73.1 kB 502.7 kB/s eta 0:00:00
+Downloading s3transfer-0.19.2-py3-none-any.whl (90 kB)
+   ---------------------------------------- 90.2/90.2 kB 512.7 kB/s eta 0:00:00
+Downloading tokenizers-0.23.2-cp310-abi3-win_amd64.whl (2.9 MB)
+   ---------------------------------------- 2.9/2.9 MB 433.7 kB/s eta 0:00:00
+Downloading tqdm-4.70.1-py3-none-any.whl (80 kB)
+   ---------------------------------------- 80.2/80.2 kB 374.1 kB/s eta 0:00:00
+Downloading charset_normalizer-3.5.2-cp311-cp311-win_amd64.whl (214 kB)
+   -------------------------------------- 214.9/214.9 kB 385.5 kB/s eta 0:00:00
+Downloading filelock-4.0.7-py3-none-any.whl (109 kB)
+   -------------------------------------- 109.2/109.2 kB 287.8 kB/s eta 0:00:00
+Downloading fsspec-2026.9.0-py3-none-any.whl (221 kB)
+   -------------------------------------- 221.7/221.7 kB 250.6 kB/s eta 0:00:00
+Downloading hf_xet-1.6.0-cp38-abi3-win_amd64.whl (4.0 MB)
+   ---------------------------------------- 4.0/4.0 MB 378.1 kB/s eta 0:00:00
+Downloading protobuf-7.36.2-cp310-abi3-win_amd64.whl (456 kB)
+   -------------------------------------- 456.5/456.5 kB 732.8 kB/s eta 0:00:00
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+   -------------------------------------- 229.9/229.9 kB 739.6 kB/s eta 0:00:00
+Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+   -------------------------------------- 135.7/135.7 kB 446.5 kB/s eta 0:00:00
+Downloading win32_setctime-1.2.0-py3-none-any.whl (4.1 kB)
+Downloading flatbuffers-25.12.19-py2.py3-none-any.whl (26 kB)
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Checking if build backend supports build_editable: started
+Checking if build backend supports build_editable: finished with status 'done'
+Building wheels for collected packages: learn-reward-api
+  Building editable for learn-reward-api (pyproject.toml): started
+  Building editable for learn-reward-api (pyproject.toml): finished with status 'done'
+  Created wheel for learn-reward-api: filename=learn_reward_api-0.1.0-0.editable-py3-none-any.whl size=3122 sha256=5fa8edb733da3b274130a1d6573f56b2c6f3f25dfd0cc5c033db5c199e1cb559
+  Stored in directory: C:\Users\aidan\AppData\Local\Temp\pip-ephem-wheel-cache-qkos63_q\wheels\58\64\05\6810a2335c4d612235a24120e8dd7530ea250b4b91135667cc
+Successfully built learn-reward-api
+Installing collected packages: flatbuffers, win32-setctime, urllib3, tqdm, six, python-multipart, py-rust-stemmers, protobuf, pillow, numpy, mmh3, jmespath, hf-xet, fsspec, filelock, charset_normalizer, av, requests, python-dateutil, onnxruntime, loguru, ctranslate2, huggingface-hub, botocore, tokenizers, s3transfer, faster-whisper, fastembed, boto3, learn-reward-api
+  Attempting uninstall: learn-reward-api
+    Found existing installation: learn-reward-api 0.1.0
+    Uninstalling learn-reward-api-0.1.0:
+      Successfully uninstalled learn-reward-api-0.1.0
+Successfully installed av-18.1.0 boto3-1.43.105 botocore-1.43.105 charset_normalizer-3.5.2 ctranslate2-4.8.2 fastembed-0.8.1 faster-whisper-1.2.1 filelock-4.0.7 flatbuffers-25.12.19 fsspec-2026.9.0 hf-xet-1.6.0 huggingface-hub-1.33.0 jmespath-1.1.0 learn-reward-api-0.1.0 loguru-0.7.3 mmh3-5.3.0 numpy-2.4.6 onnxruntime-1.30.0 pillow-12.3.0 protobuf-7.36.2 py-rust-stemmers-0.1.8 python-dateutil-2.9.0.post0 python-multipart-0.0.32 requests-2.34.2 s3transfer-0.19.2 six-1.17.0 tokenizers-0.23.2 tqdm-4.70.1 urllib3-2.8.0 win32-setctime-1.2.0
+
+[notice] A new release of pip is available: 24.0 -> 26.2.1
+[notice] To update, run: C:\Users\aidan\.zcode\workspace\default\learn-and-reward-lar\services\api\.venv\Scripts\python.exe -m pip install --upgrade pip

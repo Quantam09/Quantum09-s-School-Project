@@ -1,0 +1,100 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "seed-chunk-001",
+      "resource_id": "seed-resource-001",
+      "chunk_text": "Moien! Wéi geet et? — Hello! How are you? A common Luxembourgish greeting between friends.",
+      "language": "lb",
+      "license": {
+        "learning_only": true,
+        "research": true,
+        "commercial_ai": false,
+        "remix": true,
+        "revocable": true,
+        "voice_clone_consent": false,
+        "attribution_required": true
+      },
+      "revoked_at": null
+    },
+    {
+      "chunk_id": "seed-chunk-002",
+      "resource_id": "seed-resource-001",
+      "chunk_text": "Merci vill! — Thank you very much. Äddi! — Goodbye! Basic polite expressions in Luxembourgish.",
+      "language": "lb",
+      "license": {
+        "learning_only": true,
+        "research": true,
+        "commercial_ai": false,
+        "remix": false,
+        "revocable": true,
+        "voice_clone_consent": false,
+        "attribution_required": true
+      },
+      "revoked_at": null
+    },
+    {
+      "chunk_id": "seed-chunk-003",
+      "resource_id": "seed-resource-002",
+      "chunk_text": "Eent, zwee, dräi, véier, fënnef — one, two, three, four, five. Luxembourgish numbers one to five.",
+      "language": "lb",
+      "license": {
+        "learning_only": true,
+        "research": true,
+        "commercial_ai": false,
+        "remix": true,
+        "revocable": true,
+        "voice_clone_consent": false,
+        "attribution_required": false
+      },
+      "revoked_at": null
+    },
+    {
+      "chunk_id": "seed-chunk-004",
+      "resource_id": "seed-resource-002",
+      "chunk_text": "Ech sinn aus Lëtzebuerg. Ech hunn e Buch. — I am from Luxembourg. I have a book. Simple present-tense sentences.",
+      "language": "lb",
+      "license": {
+        "learning_only": true,
+        "research": false,
+        "commercial_ai": false,
+        "remix": true,
+        "revocable": true,
+        "voice_clone_consent": false,
+        "attribution_required": true
+      },
+      "revoked_at": null
+    },
+    {
+      "chunk_id": "seed-chunk-005",
+      "resource_id": "seed-resource-003",
+      "chunk_text": "D'Schoul fänkt um aacht Auer un. — School starts at eight o'clock. Telling time in Luxembourgish.",
+      "language": "lb",
+      "license": {
+        "learning_only": true,
+        "research": true,
+        "commercial_ai": true,
+        "remix": false,
+        "revocable": true,
+        "voice_clone_consent": false,
+        "attribution_required": true
+      },
+      "revoked_at": null
+    },
+    {
+      "chunk_id": "seed-chunk-006",
+      "resource_id": "seed-resource-004",
+      "chunk_text": "Gudde Moien! — Good morning! Formal Luxembourgish greeting used with elders and strangers.",
+      "language": "lb",
+      "license": {
+        "learning_only": true,
+        "research": true,
+        "commercial_ai": false,
+        "remix": false,
+        "revocable": true,
+        "voice_clone_consent": false,
+        "attribution_required": true
+      },
+      "revoked_at": "2026-09-15T00:00:00+00:00"
+    }
+  ]
+}

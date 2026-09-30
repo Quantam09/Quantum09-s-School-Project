@@ -1,0 +1,56 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-lar}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-lar_secret}
+      POSTGRES_DB: ${POSTGRES_DB:-lar}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-lar} -d ${POSTGRES_DB:-lar}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build:
+      context: ../services/api
+    environment:
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-lar}:${POSTGRES_PASSWORD:-lar_secret}@db:5432/${POSTGRES_DB:-lar}
+      JWT_SECRET: ${JWT_SECRET:-change-me-in-production}
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:-}
+      DEEPSEEK_MODEL: ${DEEPSEEK_MODEL:-deepseek-chat}
+      COIN_MODE: ${COIN_MODE:-stub}
+      RAG_MODE: ${RAG_MODE:-stub}
+      APP_ENV: production
+      AUTO_CREATE_TABLES: "false"
+    command: sh -c "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000"
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  web:
+    build:
+      context: ../apps/web
+    environment:
+      NEXT_PUBLIC_API_BASE_URL: http://localhost:8000/api/v1
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+
+volumes:
+  pgdata:
