@@ -4,6 +4,8 @@
 **Source:** `C:\Users\aidan\Downloads\Learn-and-Reward-LAR-main\` (fully merged project: Missions A + B + C)
 **Verdict: The complete integrated platform runs end-to-end. 85/85 tests pass. One real integration bug found (documented below).**
 
+**Screen recordings:** `run-notes/lar-demo-recording.mp4` (29s summary) and `run-notes/lar-demo-recording-4min.mp4` (4-minute paced walkthrough with an on-screen cursor: nav tour, login with typed credentials, course, practice session with coin reward, live DeepSeek chat with RAG citation, wallet ledger, market, governance ledger, resource library, AI jobs with a TTS job, certificates).
+
 ---
 
 ## Contributors
